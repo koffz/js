@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.tool{
+    background: rgb(69, 9, 77);
+    color: white;
+    padding: 30px;
+    border: 1px solid rgb(56, 8, 48);
+    border-radius: 10px;
+    margin: 200px;
+    width: 250px;
+    cursor: pointer;
+    display: inline-block; 
+    margin-left: 300px;
+    font-size: 24px;
+    outline: 0 !important;
+
+}
+.description{
+    display: none;
+    background: rgb(20, 20, 20);
+    padding: 40px;
+    color: #fff;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 60px;
+    top: 450px;
+    margin-left: 515px;
+    font-family: sans-serif;
+}
+.pointer{
+    position: absolute;
+    display: none;
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 80px solid rgb(20, 20, 20);
+    transform: rotate(-60deg);
+    right: 20px;
+    left: 50px;
+    top: 450px;
+    margin-left: 500px;
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    font-family: Sans-Serif;
+    padding: 10px;
+    border-bottom: 1px solid rgb(110, 105, 105);
+}
+
+
+/* ------------------jquery------------------------- */
+
+.tool-jq{
+    background: rgb(69, 9, 77);
+    color: white;
+    padding: 30px;
+    border: 1px solid rgb(56, 8, 48);
+    border-radius: 10px;
+    margin: 200px;
+    width: 250px;
+    cursor: pointer;
+    display: inline-block; 
+    margin-left: 300px;
+    font-size: 24px;
+    outline: 0 !important;
+
+}
+.description-jq{
+    display: none;
+    background: rgb(20, 20, 20);
+    padding: 40px;
+    color: #fff;
+    width: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 650px;
+    top: 1460px;
+    margin-left: 515px;
+    font-family: sans-serif;
+}
+.pointer-jq{
+    position: absolute;
+    display: none;
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 80px solid rgb(20, 20, 20);
+    transform: rotate(-60deg);
+    right: 20px;
+    left: 650px;
+    top: 1460px;
+    margin-left: 500px;
+}
+hr{
+    margin-top: 200px;
+}
